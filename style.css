@@ -1,0 +1,166 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #263238;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Encabezado y menú */
+header {
+    background-color: #176b87;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    font-size: 28px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #114e63;
+}
+
+/* Área principal */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+main section .img-gral{
+    display: block;       /* Convierte la imagen en bloque */
+    margin: 0 auto;       /* Centra la imagen horizontalmente */
+    max-width: 100%;      /* Evita que se desborde en pantallas pequeñas */
+    height: auto;         /* Mantiene la proporción original */
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+    color: #176b87;
+    border-bottom: 2px solid #d5e8ef;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+/* Imágenes y efecto de borde al pasar el ratón */
+.img-destacada,
+.img-galeria {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid transparent;
+    transition: border 0.3s ease, transform 0.3s ease;
+}
+
+.img-galeria:hover {
+    border: 2px solid #176b87;
+    transform: scale(1.02);
+}
+
+.img-palomitas {
+    display: block;       /* Convierte la imagen en bloque */
+    margin: 0 auto;       /* Centra la imagen horizontalmente */
+    max-width: 100%;      /* Evita que se desborde en pantallas pequeñas */
+    height: auto;         /* Mantiene la proporción original */
+}
+
+.galeria-imagenes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+  
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .logo-icono {
+    width: 80px;          /* Ajusta el tamaño según prefieras */
+    height: auto;         /* Mantiene la proporción de la imagen */
+    vertical-align: middle; /* Alinea la imagen verticalmente con el texto */
+    margin-right: 5px;    /* Espacio entre el logo y la palabra letterboxd */
+}
+
+footer p .url-letterboxd {
+    color: #00e054;         /* Color característico de Letterboxd (un verde distintivo) */
+    text-decoration: none ;  /* Quita el subrayado por defecto del enlace */
+    font-weight: bold;
+    
+}
+
+footer p .url-letterboxd:hover{
+    text-decoration: underline;
+}
+
+.tabla-precios {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tabla-precios th, .tabla-precios td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabla-precios tr:hover {
+  background-color: #e2e8f0;
+}
+
+.img-palomitas:hover{
+    border: 2px solid #176b87;
+    transform: scale(1.02);
+}
+
+.img-bola_negra{
+    display: block;
+    margin: 0 auto;       /* Centra la imagen horizontalmente */
+    max-width: 100%;      /* Evita que se desborde en pantallas pequeñas */
+    height: auto;
+}
